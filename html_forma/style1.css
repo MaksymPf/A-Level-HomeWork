@@ -65,9 +65,9 @@ body {
 }
 .form-structor .signup .form-title {
   color: #fff;
-  font-size: 2em;
+  font-size: 2.5em;
   letter-spacing: 1x;
-  text-align: center;
+  text-align: center left;
   text-shadow: 0 4px 10px rgb(0, 0, 0)
 }
 .form-structor .signup .form-title span {
