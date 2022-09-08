@@ -1,0 +1,78 @@
+2022-09-07 17:26:40.534218 
+ Traceback (most recent call last):
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 33, in <module>
+    main()
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 29, in main
+    name1 = employee.Employee('John', 20, 'lalka3@gmail.com')
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 20, in __init__
+    self.validate()
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 68, in validate
+    with open('emails.txt') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'emails.txt'
+
+
+2022-09-07 17:27:40.161717 
+ Traceback (most recent call last):
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 33, in <module>
+    main()
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 29, in main
+    name1 = employee.Employee('John', 20, 'lalka3@gmail.com')
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 20, in __init__
+    self.validate()
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 70, in validate
+    raise EmailAlreadyExistsException('Email is already taken!')
+castom_exceptions.EmailAlreadyExistsException: Email is already taken!
+
+
+2022-09-07 22:23:55.467688 
+ Traceback (most recent call last):
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 33, in <module>
+    main()
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 29, in main
+    name1 = employee.Employee('John', 20, 'lalka3@gmail.com')
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 20, in __init__
+    self.validate()
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 76, in validate
+    raise EmailAlreadyExistsException('Email is already taken!')
+castom_exceptions.EmailAlreadyExistsException: Email is already taken!
+
+
+2022-09-07 22:24:13.362748 
+ Traceback (most recent call last):
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 33, in <module>
+    main()
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 29, in main
+    name1 = employee.Employee('John', 20, 'lalka3@gmail.com')
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 20, in __init__
+    self.validate()
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 74, in validate
+    with open('emails.txt') as fp:
+FileNotFoundError: [Errno 2] No such file or directory: 'emails.txt'
+
+
+2022-09-07 22:44:51.501916 
+ Traceback (most recent call last):
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 16, in <module>
+    main()
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 11, in main
+    name1 = employee.Employee('John', 20, 'lalka3@gmail.com')
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 20, in __init__
+    self.validate()
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 76, in validate
+    raise EmailAlreadyExistsException('Email is already taken!')
+castom_exceptions.EmailAlreadyExistsException: Email is already taken!
+
+
+2022-09-07 22:47:34.679689 
+ Traceback (most recent call last):
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 16, in <module>
+    main()
+  File "C:\proger\domashka\18_hm_exceptions\run.py", line 11, in main
+    name1 = employee.Employee('John', 20, 'cartonka@gmail.com')
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 20, in __init__
+    self.validate()
+  File "C:\proger\domashka\18_hm_exceptions\employee.py", line 76, in validate
+    raise EmailAlreadyExistsException('Email is already taken!')
+castom_exceptions.EmailAlreadyExistsException: Email is already taken!
+
+

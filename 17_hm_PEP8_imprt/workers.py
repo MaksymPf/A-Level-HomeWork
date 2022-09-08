@@ -38,7 +38,7 @@ class Developer(Employee):
         name = (self.name + ' / ' + other.name)
         tech_stack = list(set(self.tech_stack + other.tech_stack))
         salary = max(self.salary_per_day, other.salary_per_day)
-        return name, tech_stack, salary
+        return self.__class__(name, tech_stack, salary)
 
     def work(self):
         return 'I come to the office and start to coding.'

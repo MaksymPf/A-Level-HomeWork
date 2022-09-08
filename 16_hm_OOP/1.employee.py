@@ -91,7 +91,7 @@ class Developer(Employee):
         return self.tech_stack != other.tech_stack
     
     def __add__(self, other):
-        name = (self.name + ' / ' + other.name)
+        name = f'{self.name} / {other.name}'
         tech_stack = list(set(self.tech_stack + other.tech_stack))
         salary = max(self.salary_per_day, other.salary_per_day)
         return name, tech_stack, salary
