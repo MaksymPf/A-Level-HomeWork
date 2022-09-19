@@ -94,7 +94,7 @@ class Developer(Employee):
         name = f'{self.name} / {other.name}'
         tech_stack = list(set(self.tech_stack + other.tech_stack))
         salary = max(self.salary_per_day, other.salary_per_day)
-        return name, tech_stack, salary
+        return Developer(name, tech_stack, salary)
 
 
 class Recruiter(Employee):
