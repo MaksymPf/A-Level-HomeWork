@@ -1,0 +1,71 @@
+div.ex1-obertka {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+}
+
+ul.list1 {
+    height: auto;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+ul.list1 > button {
+    height: 30px;
+    width: 110px;
+    font-size: medium;
+    font-weight: bold;
+    border-color: aliceblue;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: aliceblue;
+}
+
+button > a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+ul.list1 > button:hover {
+    background-color: rgb(0, 162, 255);
+    text-shadow: 2px 2px 5px black;
+    font-size: large;
+}
+
+/* Exercise 2 */
+div.ex2-obertka {
+    width: 300px;
+}
+
+ul.list2 {
+    color: #0E1116;
+    list-style-position:inside
+}
+
+/* С первого */
+ul.list2 > li:nth-child(3n - 2) {
+    background-color: #88292F;
+}
+
+/* Со второго */
+ul.list2 > li:nth-child(3n - 1) {
+    background-color: #5DB7DE;
+}
+
+/* С третьего */
+ul.list2 > li:nth-child(3n - 0) {
+    background-color: #0D5D56;
+}
+
+/* Exercise 3 */
+ul.list3 > li::before {
+    content: '→';
+}
+
+ul.list3 > li::after {
+    content: '🔥';
+}

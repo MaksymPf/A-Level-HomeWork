@@ -1,0 +1,64 @@
+.main-block {
+    height: 600px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+img {
+    height: 270px;
+    width: 270px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s;
+}
+
+img:hover {
+    transform: rotate(5deg);
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.name {
+    font-size: large;
+    font-weight: bold;
+    margin: 15px 20px;
+    transition: all 0.2s;
+}
+
+p.name:hover {
+    transform: scale(115%);
+    color: blueviolet;
+}
+
+p.description {
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-grow: 1;  /*растянул данный элимент, по всей свободной длине блока*/
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    justify-self: flex-end;
+    margin: 20px;
+    font-weight: bold;
+    background-color: rgb(38, 38, 38);
+    color: aliceblue;
+    border: 0;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: rgb(160, 0, 0);
+    transform: scaleX(2);
+}
+
+.main-block:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.801);
+}

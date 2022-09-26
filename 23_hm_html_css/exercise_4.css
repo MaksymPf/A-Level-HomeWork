@@ -1,0 +1,11 @@
+/* Exercise 4 */
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+    url('rik&morty.jpg');
+    background-size: cover;
+
+    color: aliceblue;
+    font-size: x-large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
